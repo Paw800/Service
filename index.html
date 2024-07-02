@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            background-color: red;
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .header img.logo {
+            width: 100px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .header h1 {
+            margin-top: 0;
+            font-size: 64px;
+        }
+        nav {
+            background-color: #ffcc00;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        .service-container {
+            width: 80%;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 45%;
+        }
+        .service-item h2 {
+            font-size: 32px;
+            color: red;
+            margin-bottom: 10px;
+        }
+        .service-item img {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .service-item p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://www.theexaminernews.com/examiner-news/wp-content/uploads/2012/01/Pizza_Hut.png" alt="Pizza Hut Logo" class="logo">
+        <h1>Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="service-container">
+        <div class="service-item">
+            <h2>Delivery</h2>
+            <img src="https://th.bing.com/th/id/OIP.iEE8hSDwdx8pG_1VPRJn9gAAAA?rs=1&pid=ImgDetMain.jpeg" alt="Delivery Service">
+            <p>Fast and reliable delivery service to bring your favorite meals right to your doorstep.</p>
+        </div>
+
+        <div class="service-item">
+            <h2>Catering</h2>
+            <img src="https://th.bing.com/th/id/OIP.idJi3CxZvW6QQFq_4drH9QHaEK?rs=1&pid=ImgDetMain.jpeg" alt="Catering Service">
+            <p>Perfect for parties and events, our catering service offers delicious pizzas and snacks for large groups.</p>
+        </div>
+
+        <div class="service-item">
+            <h2>Customer Support</h2>
+            <img src="https://www.uscustomercare.com/wp-content/uploads/2020/03/pizza-hut-phone-number-image-1024x538.jpg" alt="Customer Support">
+            <p>Our dedicated customer support team is ready to assist you with any inquiries or issues you may have.</p>
+        </div>
+
+        <div class="service-item">
+            <h2>Rewards Program</h2>
+            <img src="https://thepointsguy.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-02-at-1.15.33-PM.png" alt="Rewards Program">
+            <p>Join our rewards program to earn points with every order and enjoy exclusive discounts and offers.</p>
+        </div>
+    </div>
+</body>
+</html>
